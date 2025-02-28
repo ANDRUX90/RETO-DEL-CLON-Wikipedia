@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; 
+}
+header {
+    width: 100%;
+    height: 80px;
+    margin-top: 57px;
+}
+.the-logo-wiki {
+    width: 170px;
+    height: 100%; 
+    margin: 0 auto;
+    text-align: center;
+}
+.the-logo-wiki, .logo-wiki-text{
+    display: block;
+    height: 32px;
+    margin-bottom: 5px;
+}
+.the-logo-wiki img{
+    width: 100%;
+    height: 100%;
+}
+.the-logo-wiki, .logo-and-eslogan{
+    font-size: 1.5rem;
+    font-family: Linux Libertine, Georgia, Times,serif;
+
+}
+main {
+    width: 505px;
+    margin: 0 auto;
+}
+/* 
+  TODOLO DEL MAIN
+} */
+main .the-main-navigation{
+    width: 504px;
+    height: 325px;
+    font-family: -apple-system, Blink-Mac-System-Font, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+}
+
+.the-main-navigation, .the-box1{
+    display: flex;
+    justify-content: space-around;
+}
+.the-main-navigation, .the-box2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5px;
+}
+.the-main-navigation, .the-box3{
+    display: flex;
+    justify-content: space-between;
+}
+.the-main-navigation, .the-box4{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5px;
+}
+.the-main-navigation, .the-box5{
+    display: flex;
+    justify-content: space-around;
+}
+/* section2 */
+.the-main-navigation, .box{
+    width: 140px;
+    height: 65px;
+    display: block;   
+}
+.the-main-navigation, .box, .the-link-box{ 
+    text-align: center;
+    text-decoration: none;
+
+}
+.the-main-navigation, .box, .the-link-box strong{
+    font-size: 1.6rem;
+    display: block;
+    margin-bottom: 3px;
+}
+.the-main-navigation, .box .the-link-box strong:hover{
+    color: rgb(79, 83, 90);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.the-main-navigation, .box .the-link-box small{
+    color: #54595d;
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+main .world-wiki {
+    width: 200px;
+    height: 18.3;
+    margin: auto;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 150px;
+}
+.world-wiki img {
+    width: 100%;
+    height: 100%;
+}
+/* PARTE DEL INPUT */
+.the-input-search{
+    width: 100%;
+    height: 50px;
+}
+.the-input-search form{
+    width: 50rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.the-input-search form input {
+    display: inline-block;
+    width: 420px;
+    height: 45px;
+    outline-color: blueviolet;
+    font-size: 1.6rem;
+    transition: background .1s ease,border-color .1s ease,box-shadow .1s ease;
+    border: 1px solid #a2a9b1;
+    padding: 0.8rem;
+    box-shadow: inset 0 0 0 1px #fff;
+}
+.the-input-search form select {
+    width: 80px;
+    height: 30px; 
+    margin-left: -90px;
+    border: 0;
+    outline-color: blueviolet;
+    color: rgb(44, 44, 232);
+    font-size: 1.5rem;
+    outline-color: blue;
+}
+.the-input-search form button {
+    min-height: 45px;
+    margin: 0;
+    border-radius: 0 2px 2px 0;
+    padding: 8px 16px;
+    padding: 8px 16px;
+    background-color: blue;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: -10px;
+    border: 1px;
+}
+.the-input-search form button:hover{
+    background-color: rgb(40, 61, 196);
+    cursor: pointer;
+}
+main .the-button-list{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 40px; 
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+main .the-button-list, .box-1{ 
+    height: 50px;
+    width: 95%;
+    margin-top: 10px;
+}
+.the-button-list, .the-boton-center select{
+    padding: 10px;
+    top: 20px;
+    height: 40px;
+    cursor: pointer;
+    outline-color: blueviolet;
+    color: blueviolet;
+    font-size: 1.6rem;
+    font-family: 'Times' 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+hr{
+    top: 10px;
+    margin: 10px;
+    color: #54595d;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+  
+}
+
+footer .aside{
+    width: 35%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+footer .aside .stylesDescription{
+    margin-left: 5rem;
+    color: #54595d;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+footer .aside .iconplatzi{
+    margin-top: 0.5rem;
+    width: 4rem;
+    height: 4rem; 
+    display: inline-block; 
+    position: absolute;
+}
+
+footer .aside .logo-platzi{
+    height: 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+footer .aside .logo-Wiki1{
+    height: 100%;
+    display: inline-block;
+    border-radius: 0.4rem;
+    border: 0.15rem solid #d1d9df;
+    padding: 0.3rem;
+    background-color: white;
+}
+footer .aside .platzi-foundation {
+    margin-bottom: 2rem;
+    width: 90%;
+}
+footer .aside .download-platzi{
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+
+footer .aside p {
+    margin-bottom: 1rem;
+}
+footer .aside .download-platzi .storeApps{
+    width: 100%;
+    margin-top: 1rem;
+}
+footer .aside .download-platzi .storeApps .googleplay{
+    width: 12rem;
+    height: 4rem;
+    display: inline-block;
+}
+/* lado derecho */
+
+footer .main-proyect {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+footer .main-proyect .one-proyect {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer .main-proyect .one-proyect .two-proyect{
+    height: 9rem;
+    width: 30%; 
+    display: inline-block;
+}
+
+footer .main-proyect .one-proyect .two-proyect a{
+    width: 100%;
+    height: 100%;
+}
+footer .main-proyect .one-proyect .two-proyect a figure{
+    width: 3.7rem;
+    height: 3.7rem;
+    display: inline-block;
+    position: absolute;
+}
+footer .main-proyect .one-proyect .two-proyect a figure img{
+    width: 100%;
+    height: 100%;
+}
+
+
+footer .main-proyect .one-proyect .two-proyect a .txt{
+    display: inline-block;
+    width: 15rem;
+    height: 5.9rem;
+    margin-left: 4.5rem;
+}
+footer .main-proyect .one-proyect .two-proyect a .txt .name{
+    display: block;
+    width: 100%;
+    height: 2.1rem;
+    color: blueviolet;
+}
+footer .main-proyect .one-proyect .two-proyect a .txt .description{
+    display: block;
+    width: 100%;
+    height: 3.8rem;
+    color: #54595d;
+}
+
+.licencia{
+    height:2rem;
+    text-align: center;
+    color: #54595d;
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+.licencia small {
+    padding-left: 1rem;
+}
+.licencia small a{
+    text-decoration: none;
+}
+.licencia small a:hover{
+    text-decoration: underline;
+    color: #4293d5;
+}
